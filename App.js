@@ -3,7 +3,7 @@ const path = require("path");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
 const app = express();
-const port = process.env.port || 5050;
+const port = process.env.port || 5000;
 app.use(morgan("tiny"));
 app.use(express.static("./Public"));
 app.listen(port, (req, res) => {
