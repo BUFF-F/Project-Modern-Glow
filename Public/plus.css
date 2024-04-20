@@ -20,6 +20,7 @@ p{
 }
 .ALL{
     background-color: rgba(209, 209, 209, 0.27);
+    
 }
 
 .header_bottom.sticky-header.sticky .main_menu_inner{
@@ -91,7 +92,7 @@ p{
     transform-origin: 0 0 0;
     left: 0;
     right: auto;
-    opacity: 0;
+   
     visibility: hidden;
     transition: 0.5s;
     z-index: 9;
@@ -105,7 +106,7 @@ p{
 }
 .main_menu nav  ul  li:hover .yeuxmenu,
 .main_menu nav  ul  li:hover .levresmenu{
-    opacity: 1;
+    
     visibility: visible;
     transform: perspective(600px) rotate(0deg);
 }
@@ -138,7 +139,7 @@ p{
     transform-origin: 0 0 0;
     left: 0;
     right: auto;
-    opacity: 0;
+    
     visibility: hidden;
     transition: 0.5s;
     z-index: 9;
@@ -285,7 +286,7 @@ color :#815673;
 .dropdown_search{
     position: absolute;
     right: 0;
-    opacity: 0;
+    
     visibility: hidden;
     top: 120%;
     transition:0.3s;
@@ -361,19 +362,17 @@ color :#815673;
 }
 
 
-.first #p1{
+
+
+ .first #p2{
     font-size: 22px;
     font-weight: bold;
+    
     display: flex;
     display: inline-block;
-}
- .first #p2{
-    font-size: 24px;
-    font-weight: bold;
-    text-align: right;
-    color: rgb(77, 71, 71);
-    display: flex;
-    display: inline-block;
+    color:rgba(0, 0, 0, 0.65);
+    align-items: right;
+   
 
 }
 .product {
@@ -413,8 +412,8 @@ color :#815673;
     align-items: center;
     justify-content: center;
     display: inline-block;
-    color: rgba(0, 0, 0, 0.64);
-    font-size: 15px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
     text-transform: capitalize;
     line-height: 18px;
     margin-bottom: 25px;
@@ -490,7 +489,7 @@ color :#815673;
   }
   
   .footer nav ul li {
-    margin-right: 60px; /* Espacement entre chaque élément */
+    margin-right: 80px; /* Espacement entre chaque élément */
   }
   
   .footer nav ul li:last-child {
@@ -500,6 +499,7 @@ color :#815673;
   .footer nav ul li a {
     text-decoration: none; /* Supprime le soulignement des liens */
     color: #333; /* Couleur des liens */
+    font-size: 20px;
   }
 .footer{
     background-color:rgba(209, 209, 209, 0.27) ;
@@ -518,7 +518,7 @@ color :#815673;
     border-radius: 5px; /* Coins arrondis */
     background-color: #e0e0e0; /* Couleur de fond */
     margin-top: 100px;
-    width: 12à00px;
+    width: px;
     height:400px ;
   }
   
@@ -571,3 +571,4 @@ color :#815673;
     height: 20px;
     margin-left:30px;
   }
+ 
