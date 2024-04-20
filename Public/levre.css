@@ -19,6 +19,8 @@ p{
 }
 .ALL{
     background-color: rgba(209, 209, 209, 0.27);
+    font-family:'josefin slab';
+    font-style: 'normal';
 }
 .header_bottom.sticky-header.sticky .main_menu_inner{
     text-align: center;
@@ -358,6 +360,7 @@ color :#815673;
 
 
 
+
 .first #p1{
     font-size: 20px;
     font-weight: bold;
@@ -368,12 +371,16 @@ color :#815673;
     text-align: center;
     margin-top: 1cm;
 }
-.first #p2{
+ .first #p2{
     font-size: 20px;
     font-weight: bold;
     text-align: right;
     color:rgba(0, 0, 0, 0.65);
     margin-top: 0.5cm;
+    
+    
+
+    
 
 }
 .product {
@@ -463,13 +470,14 @@ color :#815673;
 }
 
 .p{
-  font-size: 18px;
-    margin: 10px 0;
-    color: #706b6b;
+    font-size: 20px;
     font-weight: bold;
+    display: flex;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(209, 209, 209, 0.27);
     text-align: center;
-    text-transform: uppercase;
-    bottom: 10px;
+    margin-top: 1cm;
 }
 .product-container1 .p {
   margin-bottom: 10px; /* Ajoutez la valeur d'espacement souhaitée */
