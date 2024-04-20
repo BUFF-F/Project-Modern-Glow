@@ -83,7 +83,7 @@ p{
     position: absolute;
     min-width: 200px;
     padding: 30px 25px;
-    background-color: rgba(209, 209, 209, 0.27);
+    background-color: rgba(209, 209, 209, 0.767);
     border: none;
     transform: perspective(600px) rotate(0deg);
     transform-origin: 0 0 0;
@@ -91,7 +91,7 @@ p{
     right: auto;
     opacity: 0;
     visibility: hidden;
-    transition: 0.5s;
+    transition: 1s;
     z-index: 9;
     top: 100%;
     text-align: left;
@@ -130,7 +130,7 @@ p{
     position: absolute;
     min-width: 200px;
     padding: 30px 25px;
-    background-color: rgba(209, 209, 209, 0.27);
+    background-color: rgba(209, 209, 209, 0.788);
     border: none;
     transform: perspective(600px) rotate(0deg);
     transform-origin: 0 0 0;
@@ -138,7 +138,7 @@ p{
     right: auto;
     opacity: 0;
     visibility: hidden;
-    transition: 0.5s;
+    transition: 1s;
     z-index: 9;
     top: 100%;
     text-align: left;
@@ -188,7 +188,7 @@ p{
     font-family: 'Inter';
 }
 .header_black .main_menu nav >ul >li ul.yeuxmenu{
-    background-color: rgba(209, 209, 209, 0.27);
+    background-color: rgba(209, 209, 209, 0.801);
     border: 1px solid #ada3a3a6;
 }
 .header_black .main_menu nav >ul >li ul.yeuxmenu li a{
@@ -359,14 +359,21 @@ color :#815673;
 
 
 .first #p1{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
+    display: flex;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(209, 209, 209, 0.27);
+    text-align: center;
+    margin-top: 1cm;
 }
 .first #p2{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-align: right;
-    color: rgb(77, 71, 71);
+    color:rgba(0, 0, 0, 0.65);
+    margin-top: 0.5cm;
 
 }
 .product {
