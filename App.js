@@ -11,7 +11,9 @@ const Plus = require("./Routers/Plus.JS");
 const Signup = require("./Routers/Signup.JS");
 const Teint = require("./Routers/Teint.JS");
 const Yeux = require("./Routers/Yeux.JS");
+const app = express();
 
+app.use("/", Home);
 app.use("/Home", Home);
 app.use("/Levre", Levre);
 app.use("/Login", Login);
@@ -21,7 +23,6 @@ app.use("/Signup", Signup);
 app.use("/Teint", Teint);
 app.use("/Yeux", Yeux);
 
-const app = express();
 const port = process.env.PORT || 5000;
 app.use(morgan("tiny"));
 app.use(express.static("./Public"));

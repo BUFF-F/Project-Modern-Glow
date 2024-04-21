@@ -3,4 +3,4 @@ const users = [
   { email: "GhezalNour512@gmail.com", pwd: "GhezalNour512" },
 ];
 
-export default users;
+module.exports = users;

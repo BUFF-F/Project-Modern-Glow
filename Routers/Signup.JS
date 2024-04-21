@@ -4,7 +4,7 @@ const Router = express.Router();
 
 Router.route("/")
   .get((req, res) => {
-    res.sendFile(path.join(__dirname, "./Public/Signup.html"));
+    res.sendFile(path.join(__dirname, "../Public/Signup.html"));
   })
   .post((req, res) => {
     console.log(req.body);
