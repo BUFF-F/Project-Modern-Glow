@@ -4,6 +4,7 @@ const Router = express.Router();
 
 Router.route("/")
   .get((req, res) => {
+    res.statusCode = 200;
     res.sendFile(path.join(__dirname, "../Public/Login.html"));
   })
   .post((req, res) => {

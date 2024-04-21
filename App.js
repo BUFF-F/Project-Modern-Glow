@@ -31,6 +31,6 @@ app.listen(port, () => {
   console.log(`server start on ${port}`);
   console.log(Users);
 });
-app.get("/all", (req, res) => {
-  res.sendFile(path.join(__dirname, "./Public/page erreur.html"));
+app.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "./Public/Error.html"));
 });
