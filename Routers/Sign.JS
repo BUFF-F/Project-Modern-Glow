@@ -34,6 +34,7 @@ Router.route("/").post((req, res) => {
         email: req.body.email,
         password: req.body.password,
       };
+      console.log(user);
       users.push(user);
       return res.send(`<h1>Please <a href="/login">login</a></h1>`);
     }

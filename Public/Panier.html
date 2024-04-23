@@ -91,9 +91,12 @@
 
         </div>
             <div classe="first">
+                <UL id="Root">
+                    
+                </UL>
                 <section>
-                    <button id="p1">commander</button><br>
-                    <button id="p2">continuer mes achats</button>
+                    <a href="" id="p1">commander</a><br>
+                    <a href="/home" id="p2">continuer mes achats</a>
                     <p id="p1"><b> sous-total :</b></p>
                     <p id="p2"><b>total :</b></p>
                 </section>
@@ -156,5 +159,11 @@
         </nav>
     </div>
 </footer>
-
+<script>
+    import order from "./ProductsDB.JS"
+    for (var i in order) {
+        const noRecipesProductordered = document.createElement("li");
+        
+    }
+</script>
 </html>
