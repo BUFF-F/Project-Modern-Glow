@@ -88,54 +88,96 @@
                 </div>
             </div>
         </div>
-        <body>
-            <div classe="first">
-                <section>
-                    <button id="p1">commander</button><br>
-                    <button id="p2">continuer mes achats</button>
-                    <p id="p1"><b> sous-total :</b></p>
-                    <p id="p2"><b>total :</b></p>
-                </section>
-            </div>
-        </body>
-        <footer>
-            <div class="footer">
-                <nav>
-                    <div class="soura">
-                        <img width="100%" src=".\images\image1.png">
-                    </div>
-                    <ul>
-                        <li classs="elem_footer">
-                            <div>
-                                <h2>MON COMPTE</h2>
-                                <a href="#">mon compte <br> suivre votre commande </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>SERVICE CLIENT</h2>
-                                <a href="#">contactez vous</a>
-                            </div>
-                        </li>
 
-                        <li>
-                            <div>
-                                <h2>MODERN GLOW </h2>
-                                <a href="#"> La Marque <br> Committed For Ever<br> Academy Exhibition</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>INFORMATIONS LEGALES </h2>
-                                <a href="#"> A propos de nous <br> Politique de condidentialité
-                                    <br> Conditions générales de vente
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
+        <center>
+            <div style="height: fit-content;" class="contacter">
+                <h1>
+                    Entrez vos informations
+                </h1>
+                <form action="/sign" method="POST">
+                    <div class="form-group row ">
+                        <label>Nom :</label>
+                        <input class="input-fname" type="text" name="nom"><br>
+                    </div>
+                    <div>
+                        <label>Prenom :</label>
+                        <input class="input-fname" type="text" name="prenom"><br>
+                    </div>
+                    <div>
+                        <label>Telephone:</label>
+                        <input class="input-fname" type="text" name="num"><br>
+                    </div>
+                    <div>
+                        <label>email :</label>
+                        <input class="input-fname" type="text" name="email"><br>
+                    </div>
+                    <div class="pass">
+                        <label class="motdepasse">
+                            mot de passe
+                        </label>
+                        <input class="input-fname" name="password" type="password" value="" required=""><br>
+                        <label class="motdepasse">
+                            Repeter mot de passe
+                        </label>
+                        <input class="input-fname" name="repassword" type="password" value="" required=""><br>
+                        <button class="btn" type="Submit" data-action="show-password" data-text-show="Montrer"
+                            data-text-hide="Masquer">
+                            s'inscrire</button>
+                </form>
             </div>
-        </footer>
+            <div class="montrer">
+                <button class="btn" type="Submit" data-action="show-password" data-text-show="Montrer"
+                    data-text-hide="Masquer">
+                    <a href="/login">se connecter</a>
+                </button>
+            </div>
     </div>
+
+    <div class="image">
+        <img src=".\images\log.jpg" height="auto" width="80%">
+    </div>
+
+    </center>
+
+    <footer>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li classs="elem_footer">
+                        <div>
+                            <h2>MON COMPTE</h2>
+                            <a href="#">mon compte <br> suivre votre commande </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h2>SERVICE CLIENT</h2>
+                            <a href="#">contactez vous</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h2>MODERN GLOW </h2>
+                            <a href="#"> La Marque <br> Committed For Ever <br> Pro Collectif <br> Academy
+                                Exhibition</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h2>INFORMATIONS LEGALES </h2>
+                            <a href="#"> A propos de nous <br> Politique de condidentialité
+                                <br> Conditions générales de vente
+                                <br> Notice sur la gestion des cookies
+                                <br> Personnaliser les cookies
+                                <br> Accessibilité</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </tbody>
 
 </html>
